@@ -1,0 +1,201 @@
+@media (max-width: 1200px) {
+  .nav-bar a {
+    display: none;
+  }
+}
+@media (max-width: 1591px) {
+  
+}
+@media (max-width: 481px) {
+  
+  .content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 40px auto;
+  }
+  .content .title {
+    font-size: 4em;
+    background: linear-gradient(to bottom, #19b5fe, #19b5fe 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .content .sub-title {
+    font-size: 3em;
+  }
+
+  .content .description {
+    font-size: 2em;
+  }
+  .price {
+    font-size: 2em;
+  }
+  .mouse1 {
+    display: flex;
+    width: 600px;
+    height: auto;
+    margin: 0;
+  }
+  .content .cart-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .cart-btn .cart,
+  .info {
+    width: 260px;
+    height: 70px;
+    font-size: 1.5em;
+  }
+  .product-container .products-title {
+    font-size: 7rem;
+  }
+  .product-container .sub-title-products {
+    font-size: 2.5rem;
+  }
+  .service .service-title {
+    font-size: 7rem;
+  }
+  .service .sub-title-service {
+    font-size: 2.5rem;
+  }
+  .member .member-title {
+    font-size: 7rem;
+  }
+  .member .sub-title-member {
+    font-size: 2.5rem;
+  }
+  .contact .contact-title {
+    font-size: 7rem;
+  }
+  .contact .sub-title-contact {
+    font-size: 2.5rem;
+  }
+  .view-more {
+    font-size: 1.5rem;
+  }
+  .mouses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .mouses .gaming {
+    width: 550px;
+    height: auto;
+  }
+  .mouses .graphic-Design {
+    width: 550px;
+    height: auto;
+  }
+  .mouses .office {
+    width: 550px;
+    height: auto;
+  }
+  .mouses .mouse2 {
+    width: 350px;
+    margin-top: -10px;
+  }
+  .mouses .mouse3 {
+    width: 350px;
+    margin-top: -10px;
+  }
+  .mouses .mouse4 {
+    width: 350px;
+    margin-top: -10px;
+  }
+  .mouses p {
+    font-size: 2em;
+  }
+  .service .service-details {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .service .service-details .shield {
+    width: 740px;
+    height: 280px;
+  }
+  .service .service-details .shield img {
+    width: 600px;
+  }
+  .service .service-details .shield-title {
+    font-size: 2.5rem;
+  }
+  .service .service-details .shield-description {
+    font-size: 1.5rem;
+  }
+  .member-container .member-details {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .member-container .electros,
+  .techlab,
+  .tc-predator-gaming,
+  .space-play {
+    margin-top: 10px;
+  }
+  .member-container .electros {
+    width: 500px;
+    height: 480px;
+    font-size: 2rem;
+  }
+  .member-container .techlab {
+    width: 500px;
+    height: 480px;
+    font-size: 2rem;
+  }
+  .member-container .tc-predator-gaming {
+    width: 500px;
+    height: 480px;
+    font-size: 2rem;
+  }
+  .member-container .space-play {
+    width: 500px;
+    height: 480px;
+    font-size: 2rem;
+  }
+  .member-container .member img {
+    width: 500px;
+  }
+  .member-container .angel-left-btn,
+  .angel-right-btn {
+    display: none;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contact-container .contact-right h1 {
+    font-size: 2rem;
+  }
+  .contact-container .name-mail input {
+    height: 60px;
+  }
+  .contact-container .subject {
+    height: 60px;
+  }
+  .contact-container .contact-left h1 {
+    font-size: 2.5rem;
+  }
+  .contact-container .contact-left .direct-channel {
+    font-size: 2rem;
+  }
+  .contact-container .contact-left p {
+    font-size: 1.5rem;
+  }
+  .contact-container .contact-left .social-media {
+    font-size: 2rem;
+  }
+  .contact-container .contact-left .social-icon img {
+    width: 35px;
+  }
+  .footer .para {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+  }
+}
+
